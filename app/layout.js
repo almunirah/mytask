@@ -1,3 +1,4 @@
 import './globals.css'
-export const metadata={title:'MyTask',description:'Personal Project & To-Do Management'}
+import './org.css'
+export const metadata={title:'MyTask Organization',description:'Organization Project, Task & Team Management Workspace'}
 export default function RootLayout({children}){return <html lang="en"><body>{children}</body></html>}
